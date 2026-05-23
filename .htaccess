@@ -1,0 +1,79 @@
+# ========================================
+# HOSTINGER NODE.JS PROXY ROUTING
+# ========================================
+
+# Block direct access to sensitive files
+<IfModule mod_authz_core.c>
+  <FilesMatch "^(\.env|\.git)$">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+
+<IfModule !mod_authz_core.c>
+  <Files ".env">
+    Order allow,deny
+    Deny from all
+  </Files>
+</IfModule>
+
+Options -Indexes
+
+# ========================================
+# ENABLE MOD_REWRITE FOR ROUTING
+# ========================================
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  
+  # Bypass rewrite for static assets (public folder)
+  RewriteRule ^(public|assets|static|_next)(/.*)?$ - [L]
+  
+  # Bypass rewrite for real files and directories
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+  
+  # Route all other requests to Node.js app via proxy
+  RewriteRule ^(.*)$ http://127.0.0.1:3000/$1 [P,QSA,L]
+</IfModule>
+
+# ========================================
+# ENABLE MOD_PROXY FOR NODE.JS FORWARDING
+# ========================================
+
+<IfModule mod_proxy.c>
+  ProxyPreserveHost On
+  ProxyRequests Off
+  
+  # Forward all requests to the Node.js server
+  ProxyPass / http://127.0.0.1:3000/
+  ProxyPassReverse / http://127.0.0.1:3000/
+  
+  # WebSocket support for real-time features
+  RewriteCond %{HTTP:Upgrade} websocket [NC]
+  RewriteCond %{HTTP:Connection} upgrade [NC]
+  RewriteRule ^/?(.*) "ws://127.0.0.1:3000/$1" [P,QSA,L]
+</IfModule>
+
+# ========================================
+# DISABLE CACHING FOR DYNAMIC CONTENT
+# ========================================
+
+<FilesMatch "\.(html|json|js|css|php)$">
+  <IfModule mod_headers.c>
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </IfModule>
+</FilesMatch>
+
+# ========================================
+# SECURITY HEADERS
+# ========================================
+
+<IfModule mod_headers.c>
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>

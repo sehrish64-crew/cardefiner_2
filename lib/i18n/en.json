@@ -1,0 +1,198 @@
+{
+  "nav_home": "Home",
+  "nav_pricing": "Plans & Pricing",
+  "nav_contact": "Contact",
+  "nav_about": "About",
+
+  "select_country": "Choose Country",
+  "search_placeholder": "Search anything...",
+
+  "banner_get_report": "Generate Report",
+  "banner_no_vin": "I don’t have a VIN code",
+  "banner_input_placeholder": "Enter vehicle VIN",
+
+  "banner_title": "Make smarter car decisions with instant vehicle history reports",
+  "banner_subtitle": "Thinking about buying a used car? We analyze 900+ global data sources to reveal hidden risks instantly.",
+
+  "cardefiner_definition": "cardefiner is a smart vehicle history platform powered by billions of verified records from global databases. It helps you instantly access accident history, ownership records, mileage data, theft checks, and damage reports so you can buy vehicles with full confidence.",
+
+  "vin_get_report": "Get Full Report",
+  "vin_no_vin_alert": "Please enter a valid VIN to continue",
+  "vin_placeholder": "e.g. 1HGCM82633A123456",
+
+  "form_title": "Your Vehicle Report",
+  "form_cancel": "Close",
+  "form_continue": "Continue Payment",
+  "form_cod": "Pay on Delivery",
+  "payment_complete": "Complete Payment",
+
+  "banner_we_check": "What we analyze:",
+  "banner_checks_damage": "Accident & Damage History",
+  "banner_checks_market_value": "Current Market Value",
+  "banner_checks_mileage": "Odometer Verification",
+  "banner_checks_more": "and additional insights...",
+
+  "banner_checks_specs": "Vehicle Specifications",
+  "banner_checks_title_check": "Title & Legal Status",
+  "banner_checks_safety_ratings": "Safety Ratings",
+  "banner_checks_natural_disaster": "Flood & Disaster History",
+
+  "banner_report_title": "Complete Vehicle History Report",
+  "banner_report_subtitle": "Get deep vehicle insights within seconds",
+
+  "features_title": "We expose what sellers often hide",
+  "features_subtitle": "Our system scans billions of verified records to help you avoid risky purchases in under a minute.",
+
+  "feature_spot_damage_title": "Identify hidden damage",
+  "feature_spot_damage_desc": "Access accident and repair records from 300M+ data points to detect past vehicle damage.",
+
+  "feature_verify_mileage_title": "Check real mileage",
+  "feature_verify_mileage_desc": "Detect odometer tampering using trusted international data sources.",
+
+  "feature_specs_title": "Complete vehicle details",
+  "feature_specs_desc": "View factory specs, engine info, features, and original configurations.",
+
+  "feature_value_title": "Fair market pricing",
+  "feature_value_desc": "Compare real-time market prices to avoid overpaying.",
+
+  "feature_avoid_hidden_title": "Avoid risky cars",
+  "feature_avoid_hidden_desc": "Detect salvage titles, insurance write-offs, and hidden damage vehicles.",
+
+  "feature_safety_title": "Safety insights",
+  "feature_safety_desc": "Check crash test results and safety performance ratings.",
+
+  "feature_disasters_title": "Disaster history check",
+  "feature_disasters_desc": "Find exposure to floods, storms, or environmental damage.",
+
+  "why_title": "Why thousands trust cardefiner",
+  "why_subtitle": "Make confident decisions with transparent and verified vehicle history.",
+
+  "why_section1_title": "Avoid expensive mistakes",
+  "why_section1_desc": "Detect hidden issues before buying and save money instantly.",
+
+  "why_section2_title": "Save time instantly",
+  "why_section2_desc": "Filter bad vehicles quickly and focus only on good deals.",
+
+  "why_section3_title": "Negotiate smarter",
+  "why_section3_desc": "Use real data to get better pricing and stronger negotiation power.",
+
+  "pricing_simple_title": "Simple & Transparent Pricing",
+  "pricing_choose_plan": "Select a Plan",
+  "pricing_subtitle": "Instant vehicle reports with no hidden charges and full flexibility.",
+  "pricing_protect_title": "Protect your investment",
+  "pricing_protect_desc": "Get full history before making any purchase decision.",
+  "pricing_need_custom": "Need custom pricing?",
+  "pricing_contact_cta": "Talk to our team →",
+
+  "trust_secure_title": "Secure Checkout",
+  "trust_secure_desc": "End-to-end encrypted payments",
+  "trust_money_title": "Money Back Guarantee",
+  "trust_money_desc": "Risk-free 30-day refund policy",
+  "trust_instant_title": "Instant Reports",
+  "trust_instant_desc": "Get results in seconds",
+
+  "contact_get_in_touch": "Contact Us",
+  "contact_title": "We’re Here to Help",
+  "contact_subtitle": "Questions about reports, orders, or features? Reach out anytime.",
+  "contact_quick_response": "Fast Support",
+  "contact_response_time": "We usually reply within 24 hours",
+  "contact_help_title": "Need assistance?",
+  "contact_help_subtitle": "Our support team is always ready to help you",
+  "contact_placeholder_name": "Your Full Name",
+  "contact_send": "Send Message",
+  "contact_sending": "Sending...",
+  "contact_send_error": "Something went wrong. Please try again.",
+
+  "admin_panel": "Admin Dashboard",
+  "admin_dashboard": "Overview",
+  "admin_orders": "Orders",
+  "admin_reviews": "Customer Reviews",
+  "admin_settings": "Settings",
+  "admin_logout": "Sign Out",
+
+  "admin_panel_orders_title": "Order Management",
+  "admin_order_number": "Order ID",
+  "admin_date_received": "Received Date",
+  "admin_customer": "Customer Name",
+  "admin_package": "Package Type",
+  "admin_amount": "Total Amount",
+  "admin_status": "Order Status",
+
+  "status_processing": "Processing",
+  "status_pending": "Pending",
+  "status_complete": "Completed",
+  "status_refunded": "Refunded",
+  "status_cancel": "Cancelled",
+
+  "email_new_order": "New Order Alert",
+  "email_order_number": "Order ID",
+  "email_customer": "Customer Details",
+  "email_package": "Selected Package",
+  "email_amount": "Payment Amount",
+
+  "email_order_confirmed": "Order Confirmed",
+  "email_product": "Product",
+  "email_amount_paid": "Paid Amount",
+
+  "email_contact_submission": "New Contact Request",
+  "email_name": "Name",
+  "email_email": "Email Address",
+  "email_subject": "Subject",
+
+  "email_review_submitted": "New Customer Review",
+  "email_rating": "Rating",
+  "email_comment": "Feedback",
+  "email_submitted_at": "Submitted On",
+
+  "email_new_order_subject": "New Order Received",
+  "email_order_confirmed_subject": "Order Successfully Placed",
+  "email_contact_subject": "New Contact Form Submission",
+  "email_review_subject": "New Review Submitted",
+
+  "howitworks_title": "How It Works in 4 Simple Steps",
+  "howitworks_subtitle": "Get full vehicle insights including ownership, mileage, accidents, and theft history in seconds.",
+
+  "howitworks_step1_title": "Enter Vehicle Info",
+  "howitworks_step1_desc": "Start by entering VIN or license plate number.",
+  "howitworks_step1_link": "Start Now",
+
+  "howitworks_step2_title": "We Scan Data",
+  "howitworks_step2_desc": "We instantly search global databases for vehicle records.",
+  "howitworks_step2_link": "Learn More",
+
+  "howitworks_step3_title": "Get Report",
+  "howitworks_step3_desc": "Receive detailed vehicle history report instantly.",
+  "howitworks_step3_link": "View Report",
+
+  "howitworks_step4_title": "Buy Confidently",
+  "howitworks_step4_desc": "Make safe buying decisions using verified insights.",
+  "howitworks_step4_link": "Get Started",
+
+  "howitworks_cta": "Check Your Vehicle Now",
+
+  "testimonials_title": "Trusted by thousands of car buyers",
+  "testimonials_subtitle": "See how our reports help users avoid risky vehicles.",
+  "testimonials_add_review": "Leave a Review",
+
+  "testimonials_trusted_title": "Trusted globally",
+  "testimonials_trusted_subtitle": "Helping buyers make safe decisions every day",
+  "testimonials_reports_generated": "Reports Generated",
+
+  "testimonials_verified_review": "Verified Review",
+  "testimonials_no_reviews": "No reviews yet — be the first!",
+
+  "stats_title": "Data-driven vehicle insights",
+  "stats_subtitle": "Helping millions of buyers make informed decisions.",
+  "stats_vehicles_checked": "Vehicles Checked",
+  "stats_clocked_found": "Odometer Fraud Detected",
+  "stats_damaged_detected": "Damaged Cars Identified",
+
+  "review_write_title": "Write Your Review",
+
+  "footer_privacy": "Privacy Policy",
+  "footer_terms": "Terms of Service",
+  "footer_security": "Security",
+  "footer_refund": "Refund Policy",
+
+  "copyright": "© {{year}} cardefiner. All rights reserved."
+}
